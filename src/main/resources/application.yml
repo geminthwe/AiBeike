@@ -1,0 +1,21 @@
+server:
+  port: 6096
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lpsystem_db?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8
+    username: root
+    password: root
+
+email:
+  config:
+    host: smtp.qq.com        # QQ邮箱的SMTP服务器地址
+    port: 587                # SMTP服务器端口，对于QQ邮箱TLS为587
+    sender: "guoyumingabc@qq.com"  # QQ邮箱地址
+    password: "jbizohrbqlzncjgc"  # QQ邮箱生成的授权码
+    protocol: smtps
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
