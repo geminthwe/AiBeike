@@ -1,7 +1,6 @@
 package com.lp.lpsystem.user.controller;
 
 import com.lp.lpsystem.common.exception.http.BadRequestException;
-import com.lp.lpsystem.email.EmailService;
 import com.lp.lpsystem.user.context.UserInfoContext;
 import com.lp.lpsystem.user.convert.UserConverter;
 import com.lp.lpsystem.user.domain.UserDo;
@@ -12,7 +11,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Random;
 
 @RestController
 @RequestMapping("/user")

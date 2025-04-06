@@ -19,3 +19,7 @@ email:
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: false
+
+python:
+  service:
+    url: http://localhost:5000
